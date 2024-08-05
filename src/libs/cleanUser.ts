@@ -1,4 +1,4 @@
-import { UserCardProps } from "./types";
+import { UserCardProps } from "@/libs/types";
 
 export const cleanUser = (user: any) => {
   const newUser: UserCardProps = {
