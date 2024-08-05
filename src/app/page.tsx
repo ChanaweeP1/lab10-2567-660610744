@@ -57,7 +57,7 @@ export default function RandomUserPage() {
           className="form-control text-center"
           style={{ maxWidth: "100px" }}
           type="number"
-          onChange={(e) => setGenAmount(e.target.value)}
+          onChange={(e) => setGenAmount(String(e.target.value))}
           value={genAmount}
         />
         <button className="btn btn-dark" onClick={generateBtnOnClick}>
